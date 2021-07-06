@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "865756405926",
+    "project_id": "pulse-b71f1",
+    "storage_bucket": "pulse-b71f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865756405926:android:132ee16257466a211fd467",
+        "android_client_info": {
+          "package_name": "com.pulse.pulse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865756405926-1fctu0o76906jrlhdhs1g4cp28f87lnr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjZ8KmLLYoXEvSAoyz_EHIN-qXEA-cD7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865756405926-1fctu0o76906jrlhdhs1g4cp28f87lnr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865756405926:android:15634a2007d27a691fd467",
+        "android_client_info": {
+          "package_name": "com.punisher435.firstapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865756405926-1fctu0o76906jrlhdhs1g4cp28f87lnr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjZ8KmLLYoXEvSAoyz_EHIN-qXEA-cD7E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865756405926-1fctu0o76906jrlhdhs1g4cp28f87lnr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
