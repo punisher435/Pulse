@@ -1,6 +1,5 @@
 
 import React, {useEffect} from 'react'
-import { StyleSheet, Text, View } from 'react-native';
 import RouteTabs from './RouteTabs';
 import { connect } from 'react-redux';
 import { checkAuthenticated, load_user } from './redux/actions/authactions';

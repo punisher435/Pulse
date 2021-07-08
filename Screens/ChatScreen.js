@@ -53,19 +53,7 @@ const ChatScreen = ({token,user,route}) => {
 
     
 
-    useEffect(() => {
-      if(flag<2)
-      {scrollViewRef.current.scrollToEnd({ animated: true });
-    setflag(flag+1);
-    }
-    },[chats])
-
-    useEffect(() => {
-        if(id)
-        {fetchchats();}
-        
-        
-    },[id,page])
+   
 
  
 
@@ -271,8 +259,21 @@ const ChatScreen = ({token,user,route}) => {
 
     
       if(chats){
-        
+        useEffect(() => {
+          if(flag<2)
+          {scrollViewRef.current.scrollToEnd({ animated: true });
+        setflag(flag+1);
+        }
+        },[chats])
+    
+        useEffect(() => {
+            if(id)
+            {fetchchats();}
+            
+            
+        },[id,page])
         setTimeout(fetchchats, 30000);
+
         
     return (
         <>

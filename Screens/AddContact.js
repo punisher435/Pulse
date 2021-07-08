@@ -10,7 +10,7 @@ import CategoryPickerItem from "../components/CategoryPickerItem";
 import ActivityIndicator from "../components/Loading";
 import AppModal from '../components/AppModal'
 import { addcontact } from "../api/chats";
-import Button from "../components/Button";
+
 import IconButton from "../components/IconButton";
 import Colors from "../config/colors";
 import AppText from "../components/Text";

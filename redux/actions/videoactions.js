@@ -1,13 +1,12 @@
 import axios from 'axios';
 import {
-    JOIN_CHAT,
+ 
     ADD_STREAM,
     MY_STREAM,
     ADD_REMOTE_STREAM,
 } from '../actiontypes/authactiontypes';
 import io from 'socket.io-client';
-import { gettoken,storetoken,removetoken } from '../../hooks/token';
-import {Server,Server1,Port,IOServer} from '../../constants';
+
 import Peer from 'react-native-peerjs';
 
 

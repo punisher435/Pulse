@@ -1,9 +1,8 @@
 import React,{useState} from 'react'
-import { Alert, StyleSheet, Text, View } from 'react-native'
+import {  StyleSheet,  View } from 'react-native'
 import { useNavigation } from '@react-navigation/core'
 
 import Button from '../components/Button'
-import AppText from '../components/Text';
 import TextInput from "../components/TextInput";
 import AppModal from '../components/AppModal';
 

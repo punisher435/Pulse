@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet,  View } from 'react-native'
 import { connect } from 'react-redux';
 
 import Chat from '../components/Chat';
@@ -40,14 +40,15 @@ const Screen = ({navigation,token,user}) => {
 
   
 
-    useEffect(() => {
-        if(token)
-        {fetchchats();}
-    },[])
+   
 
     if(chats)
   
     {
+        useEffect(() => {
+            if(token)
+            {fetchchats();}
+        },[])
         setTimeout(fetchchats, 30000);
         return (
             <View>

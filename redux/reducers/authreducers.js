@@ -14,7 +14,7 @@ import {
     ADD_REMOTE_STREAM,
 } from '../actiontypes/authactiontypes';
 
-import { gettoken,storetoken,removetoken } from '../../hooks/token';
+import { storetoken,removetoken } from '../../hooks/token';
 
 const initialState = {
     token: null,

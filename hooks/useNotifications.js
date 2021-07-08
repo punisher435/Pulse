@@ -3,8 +3,6 @@ import * as Notifications from 'expo-notifications';
 import * as Permissions from "expo-permissions";
 
 import expoPushTokensApi from "../api/expoPushTokens";
-import { user_load } from "../redux/actions/authactions";
-import { gettoken} from './token';
 import { useNavigation } from '@react-navigation/native';
 
 import Constants from 'expo-constants';

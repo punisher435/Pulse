@@ -1,11 +1,6 @@
 import axios from 'axios';
 import {
-    SIGNUP_SUCCESS,
-    SIGNUP_FAIL,
-    LOGIN_SUCCESS,
-    LOGIN_FAIL,
-    VERIFICATION_SUCCESS,
-    VERIFICATION_FAIL,
+   
     LOGOUT,
     USER_LOADED_SUCCESS,
     USER_LOADED_FAIL,
@@ -13,7 +8,7 @@ import {
     AUTHENTICATED_SUCCESS
 } from '../actiontypes/authactiontypes';
 
-import { gettoken,storetoken,removetoken } from '../../hooks/token';
+import { gettoken } from '../../hooks/token';
 import {Server} from '../../constants';
 
 /* axios.defaults.xsrfHeaderName = `${process.env.REACT_APP_XSRF_COOKIE}`;

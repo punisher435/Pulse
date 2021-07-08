@@ -1,6 +1,5 @@
 import React from 'react'
-import { StyleSheet, Text, View,SafeAreaView,Image } from 'react-native'
-import {StatusBar} from 'react-native';
+import { StyleSheet, View,Image } from 'react-native'
 
 import {Name} from '../constants';
 import Button from '../components/Button';

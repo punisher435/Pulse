@@ -1,21 +1,16 @@
 import React,{useEffect,useState} from 'react'
-import { StyleSheet, Text, View,ScrollView,BackHandler } from 'react-native'
+import { StyleSheet, View,ScrollView } from 'react-native'
 import {
    
     mediaDevices
     ,RTCView,
   } from 'react-native-webrtc';
-  import {
-    JOIN_CHAT,
-    ADD_STREAM,
-    MY_STREAM,
-    ADD_REMOTE_STREAM,
-} from '../redux/actiontypes/authactiontypes';
+
 import {joinRoom} from '../redux/actions/videoactions';
 import { connect } from 'react-redux';
 import IconButton from '../components/IconButton';
 import { useNavigation } from '@react-navigation/core'
-import { call } from 'react-native-reanimated';
+
 
 function Calls(props) {
   const navigation = useNavigation();

@@ -1,12 +1,9 @@
 import React from 'react'
-import { StyleSheet, Text, View,SafeAreaView } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
 import { connect } from 'react-redux';
-import io from 'socket.io-client';
 
-import {Server,Server1,Port,IOServer} from './constants';
 import HomeScreen from './components/HomeScreen';
 import Colors from './config/colors';
 import Screen from './Screens/Home';
@@ -16,7 +13,6 @@ import Calls from './Screens/Calls';
 import Myaccount from './Screens/Myaccount';
 import ChatScreen from './Screens/ChatScreen';
 import ViewImageScreen from './Screens/ViewImageScreen';
-import useNotifications from './hooks/useNotifications';
 import Createcall from './Screens/createcall';
 
 

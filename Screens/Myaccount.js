@@ -7,13 +7,9 @@ import { useNavigation } from '@react-navigation/native';
 import Screen from "../components/Screen";
 import { Form, FormField, SubmitButton,FormPicker as Picker } from "../components/forms";
 import FormImagePicker from "../components/forms/FormImagePicker";
-import CategoryPickerItem from "../components/CategoryPickerItem";
 import ActivityIndicator from "../components/Loading";
 import AppModal from '../components/AppModal'
 import {updateprofile} from '../api/profile';
-import axios from 'axios';
-import {Server} from '../constants';
-import Api from '../api/endpoints';
 import { UPDATE_USER } from "../redux/actiontypes/authactiontypes";
 
 

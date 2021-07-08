@@ -1,6 +1,6 @@
 import React from "react";
 import Constants from "expo-constants";
-import { StyleSheet, SafeAreaView, View,Image,Text } from "react-native";
+import { StyleSheet, SafeAreaView, View,Image} from "react-native";
 import Colors from "../config/colors";
 
 import AppText from "./Text";

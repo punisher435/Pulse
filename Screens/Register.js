@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import { StyleSheet,View } from "react-native";
+import { StyleSheet } from "react-native";
 import * as Yup from "yup";
 import { connect } from 'react-redux';
 import { useNavigation } from '@react-navigation/native';
