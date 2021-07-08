@@ -1,5 +1,5 @@
 export const Name='Pulse'
-export const Server='http://192.168.1.5:8001'
-export const IOServer='http://192.168.1.5:3000'
-export const Server1='http://192.168.1.5'
+export const Server='https://pulse-b.herokuapp.com'
+export const IOServer='https://pulse-b.herokuapp.com'
+export const Server1='http://192.168.1.6'
 export const Port='3030'

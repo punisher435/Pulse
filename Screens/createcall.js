@@ -24,9 +24,14 @@ const Createcall = () => {
     }
 
     const joinRoom = () => {
+        if(roomid=='')
+        {
+
+        }
+        else{
         navigation.navigate('Call',{
             roomid:roomid,
-        })
+        })}
     }
 
     return (<>

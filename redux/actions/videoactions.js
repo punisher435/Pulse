@@ -37,10 +37,10 @@ const connectionConfig = {
  reconnection: true,
  reconnectionDelay: 100,
  reconnectionAttempts: 5,
- transports: ['websocket'], // you need to explicitly tell it to use websockets
+ // you need to explicitly tell it to use websockets
 };
 
-const socket = io('http://192.168.1.5:3030', connectionConfig);
+const socket = io('https://pulse-b.herokuapp.com', connectionConfig);
 
 
 socket.on('connect', function(){
@@ -48,9 +48,9 @@ socket.on('connect', function(){
 });
    
     const peerServer = new Peer(undefined,{
-        host:'192.168.1.5',
-        port:'8878',
-        secure:false,
+        host:'pulse-b.herokuapp.com',
+        port:'443',
+        secure:true,
         path:'/mypeer',
         config: { 'iceServers': [
             { url: 'stun:stun01.sipphone.com' },
