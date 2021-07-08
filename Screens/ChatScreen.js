@@ -258,7 +258,7 @@ const ChatScreen = ({token,user,route}) => {
      
 
     
-      if(chats){
+      if(chats && id){
         useEffect(() => {
           if(flag<2)
           {scrollViewRef.current.scrollToEnd({ animated: true });

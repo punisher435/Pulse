@@ -42,7 +42,7 @@ const Screen = ({navigation,token,user}) => {
 
    
 
-    if(chats)
+    if(chats && token)
   
     {
         useEffect(() => {
