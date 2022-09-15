@@ -250,9 +250,10 @@ const ChatScreen = ({token,user,route}) => {
         if(event.nativeEvent.contentOffset.y==0)
         {
          
-          setpage(page+1);
+          /* setpage(page+1); */
 
         }
+        console.log(event.nativeEvent.contentOffset.y);
        };
 
      

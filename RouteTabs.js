@@ -162,8 +162,11 @@ function RouteTabs({isAuthenticated}) {
     }
     else{
       return (
-       
-          <WelcomeStackTabs />
+       <View>
+         <WelcomeStackTabs />
+         
+       </View>
+          
        
       )
     }

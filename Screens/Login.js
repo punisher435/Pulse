@@ -8,9 +8,10 @@ import Screen from "../components/Screen";
 import { Form, FormField, SubmitButton,FormPicker as Picker } from "../components/forms";
 import CategoryPickerItem from "../components/CategoryPickerItem";
 import ActivityIndicator from "../components/Loading";
+import AppModal from '../components/AppModal'
 
 import { sendotp } from '../redux/actions/authactions';
-import AppModal from '../components/AppModal'
+
 
 
 const validationSchema = Yup.object().shape({
